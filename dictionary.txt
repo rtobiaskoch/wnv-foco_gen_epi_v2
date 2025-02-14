@@ -1,0 +1,31 @@
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+PROJECT: 1_local_diversity
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+
+
+SCRIPT: local_diversity.R
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+OBJECTS RAW INPUTS: -------------------------------------------------------
+#1
+R object name : df0
+desc: fort collins sequence metadata 
+source: fn_co_mdata ("FortCollins_dataset_aligned.fasta")
+variables:
+ - "accession" "year"      "city"      "trap"      "state"     "country"  
+ - "zone"      "date"      "host"     "lineage"  
+
+#2
+Object Name: fa0
+fn_co_fasta
+df_zone 
+
+
+
+INPUT ---------------------------------------------------------------------
+fn_co_mdata = "mdata_co.csv"
+fn_co_fasta = "FortCollins_dataset_aligned.fasta"
+fn_data_zone = "data_zone_wk_stats.csv"

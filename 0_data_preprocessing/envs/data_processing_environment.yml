@@ -1,0 +1,7 @@
+name: data_pre_processing
+# Extends base environment
+- include: ../../core/envs/base_environment.yml
+dependencies:
+  - pandas
+  - scipy
+  - datasets
